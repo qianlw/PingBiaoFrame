@@ -1,0 +1,5 @@
+var image=new Image();
+      image.src='http://7xln7f.com1.z0.glb.clouddn.com/blog/wp-content/uploads/2014/06/attachments-and-taxonomies-media-editing-screen-before.png';
+      console.log(image.width);
+      console.log(image.height); 
+//ªÒ»°≥ﬂ¥Á

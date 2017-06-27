@@ -1,0 +1,2 @@
+所有的Service实现Epoint.PingBiao.IService定义的接口
+在Epoint.PingBiao.Web项目里的Configuration\autofac.config中注册（请注意大小写）

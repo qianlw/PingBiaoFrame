@@ -1,0 +1,16 @@
+G:\workspace\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.csprojResolveAssemblyReference.cache
+G:\workspace\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.filthy.resources
+G:\workspace\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.zh_CNtoTW.resources
+G:\workspace\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.csproj.GenerateResource.Cache
+G:\workspace\Cactus\Cactus.KAnalyze\bin\Debug\Cactus.KAnalyze.dll
+G:\workspace\Cactus\Cactus.KAnalyze\bin\Debug\Cactus.KAnalyze.pdb
+G:\workspace\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.dll
+G:\workspace\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.pdb
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\bin\Debug\Cactus.KAnalyze.dll
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\bin\Debug\Cactus.KAnalyze.pdb
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.csprojResolveAssemblyReference.cache
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.filthy.resources
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.zh_CNtoTW.resources
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.csproj.GenerateResource.Cache
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.dll
+E:\学习\Cactus1.6\Cactus\Cactus.KAnalyze\obj\Debug\Cactus.KAnalyze.pdb

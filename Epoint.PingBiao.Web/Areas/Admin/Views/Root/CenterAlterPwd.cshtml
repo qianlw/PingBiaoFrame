@@ -1,0 +1,46 @@
+﻿@{
+    Layout = null;
+}
+
+<div class="pure-g">
+    <a href="javascript:;" onclick="Admin.loadContent_Jq('main-content', '/Admin/Root/CenterUser');" class="pure-link pure-link-black">返回</a>
+</div>
+
+<form class="pure-form  pure-form-aligned" id="pwdForm">
+    <fieldset>
+        <legend>修改密码</legend>
+        <div class="pure-control-group">
+            <label>旧密码</label>
+            <input name="pwded" type="password" value="" placeholder="旧密码" />
+        </div>
+        <div class="pure-control-group">
+            <label>新密码</label>
+            <input name="pwding" type="password" value="" placeholder="新密码" />
+        </div>
+
+        <div class="pure-controls">
+            <button type="button" class="pure-button pure-button-primary" name="savePwd">保存</button>
+        </div>
+    </fieldset>
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        $('#pwdForm button[name=savePwd]').bind('click', function () {
+            var param = $("#pwdForm").serialize();
+            $.ajax({
+                url: "/Admin/Root/CenterAlterPwd",
+                type: "post",
+                dataType: "json",
+                data: param,
+                success: function (obj) {
+                    if (obj.pass) {
+                        Admin.loadContent_Jq('main-content', '/Admin/Root/Logout');
+                    } else {
+                        alert(obj.msg)
+                    }
+                }
+            });
+        });
+    })
+</script>

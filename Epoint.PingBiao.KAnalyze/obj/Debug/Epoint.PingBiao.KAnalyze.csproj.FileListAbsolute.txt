@@ -1,0 +1,8 @@
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\bin\Debug\Epoint.PingBiao.KAnalyze.dll
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\bin\Debug\Epoint.PingBiao.KAnalyze.pdb
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\obj\Debug\Epoint.PingBiao.KAnalyze.filthy.resources
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\obj\Debug\Epoint.PingBiao.KAnalyze.zh_CNtoTW.resources
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\obj\Debug\Epoint.PingBiao.KAnalyze.csproj.GenerateResource.Cache
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\obj\Debug\Epoint.PingBiao.KAnalyze.dll
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\obj\Debug\Epoint.PingBiao.KAnalyze.pdb
+E:\学习\EpointFrame\Epoint.PingBiao.KAnalyze\obj\Debug\Epoint.PingBiao.KAnalyze.csprojResolveAssemblyReference.cache

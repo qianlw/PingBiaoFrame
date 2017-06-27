@@ -1,0 +1,2262 @@
+﻿2017-06-27 14:01:45
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:未找到视图“Introduce”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Blog/Introduce.aspx
+~/Views/Blog/Introduce.ascx
+~/Views/Shared/Introduce.aspx
+~/Views/Shared/Introduce.ascx
+~/Views/Blog/Introduce.cshtml
+~/Views/Blog/Introduce.vbhtml
+~/Views/Shared/Introduce.cshtml
+~/Views/Shared/Introduce.vbhtml
+ Source:System.Web.Mvc
+ StackTrace:   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404.html
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:01:45
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/AdminLogin/Index.aspx
+~/Views/AdminLogin/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/AdminLogin/Index.cshtml
+~/Views/AdminLogin/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+ Source:System.Web.Mvc
+ StackTrace:   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404.html
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:02:03
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:03:23
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/AdminLogin/Index.aspx
+~/Views/AdminLogin/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/AdminLogin/Index.cshtml
+~/Views/AdminLogin/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+ Source:System.Web.Mvc
+ StackTrace:   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+
+2017-06-27 14:32:19
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:未找到视图“Introduce”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Blog/Introduce.aspx
+~/Views/Blog/Introduce.ascx
+~/Views/Shared/Introduce.aspx
+~/Views/Shared/Introduce.ascx
+~/Views/Blog/Introduce.cshtml
+~/Views/Blog/Introduce.vbhtml
+~/Views/Shared/Introduce.cshtml
+~/Views/Shared/Introduce.vbhtml
+ Source:System.Web.Mvc
+ StackTrace:   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404.html
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:32:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Error/Page404
+错误信息：未找到视图“404”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Error/404.aspx
+~/Views/Error/404.ascx
+~/Views/Shared/404.aspx
+~/Views/Shared/404.ascx
+~/Views/Error/404.cshtml
+~/Views/Error/404.vbhtml
+~/Views/Shared/404.cshtml
+~/Views/Shared/404.vbhtml
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+堆栈信息：   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:33:26
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirutalServiceHall/Biaoduan/Index
+错误信息：未找到路径“/VirutalServiceHall/Biaoduan/Index”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-27 14:47:47
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/AdminLogin/Index.aspx
+~/Views/AdminLogin/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/AdminLogin/Index.cshtml
+~/Views/AdminLogin/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+ Source:System.Web.Mvc
+ StackTrace:   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+
+2017-06-27 14:51:38
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/AdminLogin/Index.aspx
+~/Views/AdminLogin/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/AdminLogin/Index.cshtml
+~/Views/AdminLogin/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+ Source:System.Web.Mvc
+ StackTrace:   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+

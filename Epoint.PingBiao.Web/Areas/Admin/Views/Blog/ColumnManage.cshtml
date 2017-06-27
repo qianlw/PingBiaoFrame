@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+    var list = ViewData["ColumnList"] as List<Epoint.PingBiao.Model.CMS.Column>;
+}
+
+<div class="pure-g">
+<a href="javascript:;" onclick="Admin.loadContent_Jq('main-content', '/Admin/Blog/ColumnAdd');" class="pure-link pure-link-default">添加栏目</a>
+<a href="javascript:;" onclick="Admin.loadContent_Jq('main-content', '/Admin/Blog/BlogIndex');" class="pure-link pure-link-block">返回</a>
+</div>
+
+<table class="pure-table pure-table-bordered table-p" id="column">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>类目名</th>
+            <th>排序编号</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (list != null)
+        { 
+            foreach (var item in list)
+            { 
+            <tr>
+                <td>@item.Column_Id</td>
+                <td>@item.ColumnName</td>
+                <td>@item.Sort</td>
+                <td>
+                    <a href="javascript:;" class="pure-link pure-link-purple" name="upd" data-value="@item.Column_Id">编辑</a>
+                    <a href="javascript:;" class="pure-link pure-link-purple" name="del" data-value="@item.Column_Id">删除</a>
+                </td>
+            </tr>
+            }
+        }else{
+            <tr ><td colspan="4" style="text-align:center;">(暂无相关记录)</td></tr>
+        }
+    </tbody>
+</table>
+<script type="text/javascript">
+    //操作绑定
+    function bindFunc(){
+        $('#column a[name=upd]').bind('click', function () {
+            var $target=$(this);
+            var id= $target.attr('data-value');
+            Admin.loadContent_Jq('main-content', '/Admin/Blog/ColumnUpdate?id=' + id);
+        });
+
+        $('#column a[name=del]').bind('click', function () {
+            var $target=$(this);
+            var id= $target.attr('data-value');
+            if(confirm('确定真的删除吗')){
+                Admin.loadDialog_show();
+                $.ajax({
+                    url: "/Admin/Blog/ColumnDelete",
+                    type: "post",
+                    data: { ids: id },
+                    success: function (obj) {
+                        Admin.loadDialog_hide();
+                        if(obj.pass){
+                            alert('删除成功');
+                            $target.parent().parent().remove();
+                        }else{
+                            alert(obj.msg);
+                        }
+                    }
+                });
+            }
+        });
+    }
+    $(function () {
+        bindFunc();
+    })
+</script>
+
+

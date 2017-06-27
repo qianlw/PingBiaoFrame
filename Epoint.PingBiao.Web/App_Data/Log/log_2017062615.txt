@@ -1,0 +1,386 @@
+﻿2017-06-26 15:44:30
+Ip:::1
+浏览器:IE
+浏览器版本:7
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirtualServiceHall/BiaoDuan/Index
+错误信息：c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bf9bb933\77f01fe3\App_Web_index.cshtml.a2408319.ygtymdmb.0.cs(26): error CS0234: 命名空间“System.Web”中不存在类型或命名空间名称“Optimization”(是否缺少程序集引用?)
+错误源：System.Web
+异常方法：System.CodeDom.Compiler.CompilerResults Compile()
+堆栈信息：   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FileExists(ControllerContext controllerContext, String virtualPath) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 89
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String theme, String cacheKey, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 190
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 228
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 260
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__a(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:44:34
+Ip:::1
+浏览器:InternetExplorer
+浏览器版本:11
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:44:46
+Ip:::1
+浏览器:IE
+浏览器版本:7
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirtualServiceHall/BiaoDuan/Index
+错误信息：c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bf9bb933\77f01fe3\App_Web_index.cshtml.a2408319.9p4bwvnp.0.cs(26): error CS0234: 命名空间“System.Web”中不存在类型或命名空间名称“Optimization”(是否缺少程序集引用?)
+错误源：System.Web
+异常方法：System.CodeDom.Compiler.CompilerResults Compile()
+堆栈信息：   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FileExists(ControllerContext controllerContext, String virtualPath) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 89
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String theme, String cacheKey, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 190
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 228
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 260
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__a(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:44:46
+Ip:::1
+浏览器:InternetExplorer
+浏览器版本:11
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:48:27
+Ip:::1
+浏览器:IE
+浏览器版本:7
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirtualServiceHall/BiaoDuan/Index
+错误信息：c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bf9bb933\77f01fe3\App_Web_index.cshtml.a2408319.9ax8pc_w.0.cs(26): error CS0234: 命名空间“System.Web”中不存在类型或命名空间名称“Optimization”(是否缺少程序集引用?)
+错误源：System.Web
+异常方法：System.CodeDom.Compiler.CompilerResults Compile()
+堆栈信息：   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FileExists(ControllerContext controllerContext, String virtualPath) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 89
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String theme, String cacheKey, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 190
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 228
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 260
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__a(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:48:27
+Ip:::1
+浏览器:InternetExplorer
+浏览器版本:11
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:50:06
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:50:08
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirtualServiceHall/BiaoDuan/Index
+错误信息：c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\bf9bb933\77f01fe3\App_Web_index.cshtml.a2408319.ldezrnpo.0.cs(26): error CS0234: 命名空间“System.Web”中不存在类型或命名空间名称“Optimization”(是否缺少程序集引用?)
+错误源：System.Web
+异常方法：System.CodeDom.Compiler.CompilerResults Compile()
+堆栈信息：   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FileExists(ControllerContext controllerContext, String virtualPath) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 89
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String theme, String cacheKey, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 190
+   在 Epoint.PingBiao.Web.ThemeViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 228
+   在 Epoint.PingBiao.Web.ThemeViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache) 位置 e:\学习\EpointFrame\Epoint.PingBiao.Web\App_Start\ThemeViewEngine.cs:行号 260
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__a(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:50:10
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:54:42
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString)
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\学习\EpointFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+
+2017-06-26 15:58:19
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirutalServiceHall/Biaoduan/Index
+错误信息：未找到路径“/VirutalServiceHall/Biaoduan/Index”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:58:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:58:26
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirutalServiceHall/Biaoduan/Index
+错误信息：未找到路径“/VirutalServiceHall/Biaoduan/Index”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:58:26
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:59:10
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/Views/Shared/_Layout.cshtml
+错误信息：未找到路径“/Views/Shared/_Layout.cshtml”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 15:59:10
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

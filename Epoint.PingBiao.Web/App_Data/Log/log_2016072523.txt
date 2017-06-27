@@ -1,0 +1,22 @@
+﻿2016-07-25 23:37:25
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:值不能为 null。
+参数名: second
+ Source:System.Core
+ StackTrace:   在 System.Linq.Enumerable.Union[TSource](IEnumerable`1 first, IEnumerable`1 second)
+   在 Cactus.Web.ThemeViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache) 位置 g:\workspace\Cactus\Cactus.Web\App_Start\ThemeViewEngine.cs:行号 264
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__a(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Collections.Generic.IEnumerable`1[TSource] Union[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Collections.Generic.IEnumerable`1[TSource])
+

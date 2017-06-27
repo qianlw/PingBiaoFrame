@@ -1,0 +1,168 @@
+﻿2017-06-26 17:12:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:12:20
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirutalServiceHall/Biaoduan/Index
+错误信息：未找到路径“/VirutalServiceHall/Biaoduan/Index”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:12:21
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:13:54
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirutalServiceHall/Biaoduan/Index
+错误信息：未找到路径“/VirutalServiceHall/Biaoduan/Index”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:13:56
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:14:12
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/VirutalServiceHall/Biaoduan/Index
+错误信息：未找到路径“/VirutalServiceHall/Biaoduan/Index”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:14:12
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:14:34
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6768/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-06-26 17:14:51
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString)
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\学习\EpointFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+

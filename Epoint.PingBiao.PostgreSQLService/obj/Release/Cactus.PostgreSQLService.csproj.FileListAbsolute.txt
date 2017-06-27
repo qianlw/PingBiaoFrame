@@ -1,0 +1,16 @@
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Cactus.PostgreSQLService.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Cactus.PostgreSQLService.pdb
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Cactus.Common.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Cactus.IService.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Cactus.Model.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Mono.Security.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Npgsql.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Autofac.Integration.Mvc.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Autofac.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\MySql.Data.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Mono.Data.Sqlite.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Autofac.Integration.Mvc.xml
+G:\workspace\Cactus\Cactus.PostgreSQLService\bin\Release\Autofac.xml
+G:\workspace\Cactus\Cactus.PostgreSQLService\obj\Release\Cactus.PostgreSQLService.csprojResolveAssemblyReference.cache
+G:\workspace\Cactus\Cactus.PostgreSQLService\obj\Release\Cactus.PostgreSQLService.dll
+G:\workspace\Cactus\Cactus.PostgreSQLService\obj\Release\Cactus.PostgreSQLService.pdb
