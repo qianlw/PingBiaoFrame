@@ -25,6 +25,5 @@ E:\PingBiaoFrame\Epoint.PingBiao.Common\bin\Debug\Npgsql.dll
 E:\PingBiaoFrame\Epoint.PingBiao.Common\bin\Debug\Autofac.xml
 E:\PingBiaoFrame\Epoint.PingBiao.Common\bin\Debug\Autofac.Configuration.xml
 E:\PingBiaoFrame\Epoint.PingBiao.Common\bin\Debug\Autofac.Integration.Mvc.xml
-E:\PingBiaoFrame\Epoint.PingBiao.Common\obj\Debug\Epoint.PingBiao.Common.csprojResolveAssemblyReference.cache
 E:\PingBiaoFrame\Epoint.PingBiao.Common\obj\Debug\Epoint.PingBiao.Common.dll
 E:\PingBiaoFrame\Epoint.PingBiao.Common\obj\Debug\Epoint.PingBiao.Common.pdb

@@ -1,0 +1,36 @@
+﻿2017-07-06 17:08:54
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/admin/blog
+错误信息：The requested service 'MySQL.CMS.TagService (Epoint.PingBiao.IService.CMS.ITagService)' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+错误源：Autofac
+异常方法：System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+堆栈信息：   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveNamed[TService](IComponentContext context, String serviceName, IEnumerable`1 parameters)
+   在 Epoint.PingBiao.Common.IocHelper.AutofacResolveNamed[TService](String ServiceName) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\IocHelper.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Areas.Admin.Controllers.BlogController..ctor() 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Areas\Admin\Controllers\BlogController.cs:行号 27
+   在 lambda_method(Closure , Object[] )
+   在 Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+
+
+2017-07-06 17:08:56
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

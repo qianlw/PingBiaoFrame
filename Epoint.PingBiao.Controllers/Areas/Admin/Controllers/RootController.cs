@@ -25,6 +25,8 @@ namespace Epoint.PingBiao.Controllers.Areas.Admin.Controllers
         {
             return View();
         }
+
+
         //参数面板
         [Power(IsSuper = false, IsShow = false, PowerId = "Root_A101", PowerName = "首页", PowerDes = "管理的首页")]
         public ActionResult ZPanel()

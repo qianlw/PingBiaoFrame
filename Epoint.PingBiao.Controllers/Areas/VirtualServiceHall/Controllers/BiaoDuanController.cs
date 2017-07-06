@@ -8,9 +8,8 @@ using System.Web.Mvc;
 
 namespace Epoint.PingBiao.Controllers.Areas.VirtualServiceHall.Controllers
 {
-    public class BiaoDuanController : PowerBaseController
+    public class BiaoDuanController : Controller
     {
-        [Power(IsSuper = false, IsShow = true, PowerId = "Blog_A101", Icon = "fa-book", PowerName = "文章管理", PowerDes = "文章管理")]
         public ActionResult Index()
         {
             return View();

@@ -1,0 +1,207 @@
+﻿2017-07-05 08:41:28
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/
+错误信息：The requested service 'MSSQL.CMS.ColumnService (Epoint.PingBiao.IService.CMS.IColumnService)' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+错误源：Autofac
+异常方法：System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+堆栈信息：   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveNamed[TService](IComponentContext context, String serviceName, IEnumerable`1 parameters)
+   在 Epoint.PingBiao.Common.IocHelper.AutofacResolveNamed[TService](String ServiceName) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\IocHelper.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Controllers.BlogController..ctor() 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\BlogController.cs:行号 23
+   在 lambda_method(Closure , Object[] )
+   在 Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+
+
+2017-07-05 08:41:31
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-07-05 08:42:18
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/
+错误信息：The requested service 'MSSQL.CMS.ColumnService (Epoint.PingBiao.IService.CMS.IColumnService)' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+错误源：Autofac
+异常方法：System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+堆栈信息：   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveNamed[TService](IComponentContext context, String serviceName, IEnumerable`1 parameters)
+   在 Epoint.PingBiao.Common.IocHelper.AutofacResolveNamed[TService](String ServiceName) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\IocHelper.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Controllers.BlogController..ctor() 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\BlogController.cs:行号 23
+   在 lambda_method(Closure , Object[] )
+   在 Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+
+
+2017-07-05 08:42:19
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-07-05 08:42:38
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/
+错误信息：The requested service 'SQLite.CMS.ColumnService (Epoint.PingBiao.IService.CMS.IColumnService)' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+错误源：Autofac
+异常方法：System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+堆栈信息：   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveNamed[TService](IComponentContext context, String serviceName, IEnumerable`1 parameters)
+   在 Epoint.PingBiao.Common.IocHelper.AutofacResolveNamed[TService](String ServiceName) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\IocHelper.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Controllers.BlogController..ctor() 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\BlogController.cs:行号 23
+   在 lambda_method(Closure , Object[] )
+   在 Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+
+
+2017-07-05 08:42:38
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-07-05 08:42:51
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/
+错误信息：The requested service 'MSSQL.CMS.ColumnService (Epoint.PingBiao.IService.CMS.IColumnService)' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+错误源：Autofac
+异常方法：System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+堆栈信息：   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveNamed[TService](IComponentContext context, String serviceName, IEnumerable`1 parameters)
+   在 Epoint.PingBiao.Common.IocHelper.AutofacResolveNamed[TService](String ServiceName) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\IocHelper.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Controllers.BlogController..ctor() 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\BlogController.cs:行号 23
+   在 lambda_method(Closure , Object[] )
+   在 Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+
+
+2017-07-05 08:42:51
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-07-05 08:43:17
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/
+错误信息：The requested service 'MSSQL.CMS.ColumnService (Epoint.PingBiao.IService.CMS.IColumnService)' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+错误源：Autofac
+异常方法：System.Object ResolveService(Autofac.IComponentContext, Autofac.Core.Service, System.Collections.Generic.IEnumerable`1[Autofac.Core.Parameter])
+堆栈信息：   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveNamed[TService](IComponentContext context, String serviceName, IEnumerable`1 parameters)
+   在 Epoint.PingBiao.Common.IocHelper.AutofacResolveNamed[TService](String ServiceName) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\IocHelper.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Controllers.BlogController..ctor() 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\BlogController.cs:行号 23
+   在 lambda_method(Closure , Object[] )
+   在 Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+
+
+2017-07-05 08:43:17
+Ip:::1
+浏览器:Chrome
+浏览器版本:50
+操作系统:WinNT
+错误信息：
+页面：http://localhost:6688/favicon.ico
+错误信息：未找到路径“/favicon.ico”的控制器或该控制器未实现 IController。
+错误源：System.Web.Mvc
+异常方法：System.Web.Mvc.IController GetControllerInstance(System.Web.Routing.RequestContext, System.Type)
+堆栈信息：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+2017-07-05 08:43:53
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:Unable to connect to any of the specified MySQL hosts.
+ Source:MySql.Data
+ StackTrace:   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Epoint.PingBiao.Common.SqlString.GetMySqlConnection(String sqlConnectionString) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\SqlString.cs:行号 39
+   在 Epoint.PingBiao.MySQLService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\PingBiaoFrame\Epoint.PingBiao.MySQLService\UserServer.cs:行号 17
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\AdminLoginController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:Void Open()
+

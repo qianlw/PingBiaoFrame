@@ -1,0 +1,120 @@
+﻿2017-07-04 15:24:20
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\SqlString.cs:行号 61
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\PingBiaoFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\AdminLoginController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+
+2017-07-04 15:45:15
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\SqlString.cs:行号 61
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\PingBiaoFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\AdminLoginController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+
+2017-07-04 15:45:18
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\SqlString.cs:行号 61
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\PingBiaoFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\AdminLoginController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+
+2017-07-04 15:46:37
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\SqlString.cs:行号 61
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\PingBiaoFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\AdminLoginController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+
+2017-07-04 15:47:42
+Data:System.Collections.ListDictionaryInternal
+ InnerException:
+ Message:试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+ Source:System.Data.SQLite
+ StackTrace:   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize()
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 Epoint.PingBiao.Common.SqlString.GetSQLiteConnection(String sqlConnectionString) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Common\SqlString.cs:行号 61
+   在 Epoint.PingBiao.SQLiteService.UserServer.CheckLogin(String userName, String pwd) 位置 e:\PingBiaoFrame\Epoint.PingBiao.SQLiteService\UserServer.cs:行号 16
+   在 Epoint.PingBiao.Controllers.Controllers.AdminLoginController.Index(String VCode, String UserName, String Password) 位置 e:\PingBiaoFrame\Epoint.PingBiao.Controllers\Controllers\AdminLoginController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+ TargetSite:System.Data.SQLite.SQLiteErrorCode sqlite3_config_none(System.Data.SQLite.SQLiteConfigOpsEnum)
+

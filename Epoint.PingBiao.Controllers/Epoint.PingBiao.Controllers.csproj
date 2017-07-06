@@ -72,8 +72,10 @@
   <ItemGroup>
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\BlogController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\RootController.cs" />
     <Compile Include="Areas\Admin\Controllers\SysController.cs" />
+    <Compile Include="Areas\PingBiao\Controllers\HomeController.cs" />
     <Compile Include="Areas\PingBiao\PingBiaoAreaRegistration.cs" />
     <Compile Include="Areas\VirtualServiceHall\Controllers\BiaoDuanController.cs" />
     <Compile Include="Areas\VirtualServiceHall\VirtualServiceHallAreaRegistration.cs" />
@@ -105,9 +107,7 @@
       <Name>Epoint.PingBiao.Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Areas\PingBiao\Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
